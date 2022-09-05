@@ -1,0 +1,59 @@
+/* Estilo que voy a aplicar despues con el js */
+.contenedor-skills .skill .barra .barra-progreso1 {
+    background-color: #fff;
+    width: 95%;
+    height: 6px;
+    animation: progreso1 2s forwards;
+  }
+  .contenedor-skills .skill .barra .barra-progreso2 {
+    background-color: #fff;
+    width: 60%;
+    height: 6px;
+    animation: progreso2 2s forwards;
+  }
+  .contenedor-skills .skill .barra .barra-progreso3 {
+    background-color: #fff;
+    width: 0%;
+    height: 6px;
+    animation: progreso3 2s forwards;
+  }
+  .contenedor-skills .skill .barra .barra-progreso4 {
+    background-color: #fff;
+    width: 70%;
+    height: 6px;
+    animation: progreso4 2s forwards;
+  }
+  
+  /* Creacion de la animacion de la barra */
+  @keyframes progreso1 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 95%;
+    }
+  }
+  @keyframes progreso2 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 60%;
+    }
+  }
+  @keyframes progreso3 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 0%;
+    }
+  }
+  @keyframes progreso4 {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 70%;
+    }
+  }

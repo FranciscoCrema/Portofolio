@@ -1,0 +1,36 @@
+/* Seccion Skills */
+.contenedor-skills {
+  background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 0.8)),
+    url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding: 100px 0;
+  text-align: center;
+
+  & .skill {
+    max-width: 600px;
+    margin: 30px auto;
+
+    & .info {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    & .lista {
+      display: inline-block;
+      margin-right: 20px;
+      height: 10px;
+      width: 10px;
+      background-color: #fff;
+    }
+
+    & .barra {
+      background-color: #919191;
+      width: 100%;
+      height: 6px;
+      margin: 10px 0;
+    }
+  }
+}
