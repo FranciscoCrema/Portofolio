@@ -78,11 +78,6 @@ html {
       #inicio .contenido .presentacion h2 span {
         font-size: 25px;
         color: #00AF91; }
-    #inicio .contenido .presentacion .description {
-      max-width: 700px;
-      margin: 25px auto;
-      font-size: 18px;
-      text-align: center; }
     #inicio .contenido .presentacion a {
       text-decoration: none;
       display: inline-block;
@@ -258,6 +253,12 @@ html {
   height: 6px;
   animation: progreso4 2s forwards; }
 
+.contenedor-skills .skill .barra .barra-progreso5 {
+  background-color: #fff;
+  width: 70%;
+  height: 6px;
+  animation: progreso4 2s forwards; }
+
 /* Creacion de la animacion de la barra */
 @keyframes progreso1 {
   0% {
@@ -278,6 +279,12 @@ html {
     width: 0%; } }
 
 @keyframes progreso4 {
+  0% {
+    width: 0; }
+  100% {
+    width: 70%; } }
+
+@keyframes progreso5 {
   0% {
     width: 0; }
   100% {
