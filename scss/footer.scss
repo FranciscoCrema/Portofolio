@@ -5,6 +5,10 @@ footer {
   text-align: center;
   padding: 30px 0;
 
+  & b{
+    color: $color;
+  }
+
   & a {
     text-decoration: none;
     color: #fff;
@@ -14,7 +18,7 @@ footer {
     transition: 0.5s;
 
     &:hover {
-      color: #ff5080;
+      color: $color;
     }
   }
 }

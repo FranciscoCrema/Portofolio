@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth; }
 
 #inicio {
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1631&q=80);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   background-size: cover;
   background-position: center center;
   height: 100vh; }
@@ -31,7 +31,7 @@ html {
         text-decoration: none; }
         #inicio .contenido header .contenido-header a h1 {
           text-align: center;
-          color: #ff5080; }
+          color: #00AF91; }
       #inicio .contenido header .contenido-header nav ul {
         list-style: none;
         display: flex;
@@ -43,7 +43,7 @@ html {
           font-weight: 400;
           transition: 0.5s; }
         #inicio .contenido header .contenido-header nav ul a:hover {
-          color: #ff5080; }
+          color: #00AF91; }
       #inicio .contenido header .contenido-header .redes a {
         text-decoration: none;
         color: #fff;
@@ -51,9 +51,9 @@ html {
         margin-left: 10px;
         transition: 0.5s; }
         #inicio .contenido header .contenido-header .redes a:hover {
-          color: #ff5080; }
+          color: #00AF91; }
       #inicio .contenido header .contenido-header .seleccionado {
-        color: #ff5080; }
+        color: #00AF91; }
   #inicio .contenido .presentacion {
     max-width: 1100px;
     height: 100vh;
@@ -68,13 +68,16 @@ html {
       margin-bottom: 20px;
       text-transform: uppercase;
       letter-spacing: 5px; }
+    #inicio .contenido .presentacion p {
+      color: #F6F6F6; }
     #inicio .contenido .presentacion h2 {
       font-size: 55px;
       margin-bottom: 25px;
-      text-align: center; }
+      text-align: center;
+      color: #F6F6F6; }
       #inicio .contenido .presentacion h2 span {
         font-size: 25px;
-        color: #ff5080; }
+        color: #00AF91; }
     #inicio .contenido .presentacion .description {
       max-width: 700px;
       margin: 25px auto;
@@ -92,7 +95,7 @@ html {
       text-transform: uppercase;
       transition: 0.5s; }
       #inicio .contenido .presentacion a:hover {
-        background-color: #ff5080; }
+        background-color: #00AF91; }
 
 #icono-nav {
   display: none; }
@@ -119,7 +122,7 @@ html {
       text-transform: uppercase;
       color: #111135;
       text-decoration: underline;
-      text-decoration-color: #d3d3d3;
+      text-decoration-color: #DADADA;
       text-decoration-thickness: 3px; }
     #sobremi .sobremi h2 {
       font-size: 34px;
@@ -127,7 +130,7 @@ html {
       margin: 20px 0;
       letter-spacing: 2px; }
       #sobremi .sobremi h2 span {
-        color: #ff5080; }
+        color: #00AF91; }
     #sobremi .sobremi h3 {
       font-size: 18px;
       font-weight: 500;
@@ -149,7 +152,7 @@ html {
       margin-top: 30px;
       transition: 0.5s; }
       #sobremi .sobremi a:hover {
-        background-color: #ff5080;
+        background-color: #00AF91;
         color: #fff; }
 
 /* Seccion Servicios */
@@ -205,7 +208,7 @@ html {
 
 /* Seccion Skills */
 .contenedor-skills {
-  background: linear-gradient(#eb5a5acc, rgba(33, 16, 16, 0.8)), url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80);
+  background: linear-gradient(#2394e0d1, rgba(33, 16, 16, 0.8)), url(https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -315,7 +318,7 @@ html {
         position: absolute;
         left: 0;
         background-color: rgba(0, 0, 0, 0.8);
-        color: #ff5080;
+        color: #00AF91;
         width: 100%;
         padding: 10px;
         opacity: 0;
@@ -358,7 +361,7 @@ html {
     font-size: 15px;
     font-weight: bold; }
     #contacto .btn-enviar:hover {
-      background-color: #ff5080;
+      background-color: #00AF91;
       color: #fff; }
 
 #contacto .contenedor-form input,
@@ -374,6 +377,8 @@ footer {
   color: #fff;
   text-align: center;
   padding: 30px 0; }
+  footer b {
+    color: #00AF91; }
   footer a {
     text-decoration: none;
     color: #fff;
@@ -382,7 +387,7 @@ footer {
     font-size: 26px;
     transition: 0.5s; }
     footer a:hover {
-      color: #ff5080; }
+      color: #00AF91; }
 
 /* Responsive de la pagina */
 @media screen and (max-width: 800px) {
